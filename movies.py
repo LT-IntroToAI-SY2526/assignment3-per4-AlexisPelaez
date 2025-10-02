@@ -435,4 +435,17 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "spike lee",
         ],
     ),
+    (
+        "cloverfield",
+        "Matt Reeves",
+        2008,
+        [
+            "lizzy caplan",
+            "jessica lucas",
+            "mike vogel",
+            "michael stahl-david",
+            "ben feldman",
+            "odette annable",
+        ],
+    )
 ]
