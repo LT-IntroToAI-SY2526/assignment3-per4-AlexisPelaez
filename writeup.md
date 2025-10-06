@@ -15,11 +15,12 @@ This assignment completes our movie chatbot system by implementing action functi
 ## Reflection Questions
 
 1. What are some key programming concepts or techniques that you learned while completing this assignment?
-
+One of the key programming concepts was experiments with loops-and-a-half and using a tracker variable to loop through a database. I had previous experience in Java but some of the aspects from converting that into python was troubling for me.
 
 
 2. How does the overall movie chatbot system work? Explain the flow from when a user types a query to when they receive an answer.
-
-
+The movie chatbot system takes a prompt(source) from the user and if it matches with one of the patterns, then it will run the function that correlates to that pattern and return an answer that answers the prompt. This keeps on going until the user types in "Bye" in order to end the program.
 
 3. What are some real-world applications where this type of pattern-matching chatbot system could be useful? How might you extend or improve this system for practical use?
+
+This may be used in chatbot assistants that may be on movie sites. They would prompt the user what kinds of movies they are looking for. Due to the many different prompts and functions that can go together, there are many possibilities and uses of databases in order to return an answer that users would like. If I could improve it, I would attempt to recommend a few movies to gauge what kind of movies the user is interested in.
