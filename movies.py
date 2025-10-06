@@ -437,7 +437,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
     ),
     (
         "cloverfield",
-        "Matt Reeves",
+        "matt reeves",
         2008,
         [
             "lizzy caplan",
